@@ -1,30 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menampilkan tabel dengan html dan php</title>
     <style>
-        body {
-            font-family: 'new courier', monospace;
-        }
-        table, th, td {
+        body { font-family: 'new courier', monospace; }
+        table, th, td 
+        {
             border: 1px solid black;
             border-collapse: collapse;
             margin: 0 auto;
         }
-        th, td {
-            padding: 10px;
-        }
-        th {
-            text-align: center;
-        }
-        tr:nth-child(even) {
-        background-color: #D6EEEE;
-        }
-        h1{
-            text-align: center;
-        }
+        th, td { padding: 10px; }
+        th {text-align: center;}
+        tr:nth-child(even) { background-color: #D6EEEE;}
+        h1{text-align: center;}
     </style>
 </head>
 <body>
