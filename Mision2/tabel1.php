@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menampilkan tabel dengan html dan php</title>
     <style>
+        body {
+            font-family: 'new courier', monospace;
+        }
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
+            margin: 0 auto;
         }
         th, td {
             padding: 10px;
@@ -18,10 +22,14 @@
         tr:nth-child(even) {
         background-color: #D6EEEE;
         }
+        h1{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <?php
+        echo "<h1>Data Mahasiswa</h1><br>";
         echo "<table>";
             echo "<tr>
                     <th>NIM</th>

@@ -9,9 +9,9 @@
 
         //php sensitif di dalam penulisan variabel
         $nama = "alda";
-        echo $nama"<br>";
-        echo $NAMA"<br>";
-        echo $NaMa"<br>";
+        echo $nama."<br>";
+        //echo $NAMA"<br>";
+        //echo $NaMa"<br>";
 
         //variabel php tidak dideklarasika dengan tipe datanya
         $x = 5;
@@ -42,22 +42,26 @@
         $w = "lululu";
         echo "bernyanyi $z<br>";
         echo 'bernyanyi $z<br>';
-        echo strlen("Hello world!<br>");
-        echo str_word_count("Hello world!<br>");
-        echo strpos("Hello world!<br>", "world");
-        echo strtoupper($z);echo "<br>";
-        echo strtolower($z);echo "<br>";
-        echo str_replace("lilili", "lululu", $z);echo "<br>";
-        echo strrev($z);echo "<br>";
-        echo trim($z);echo "<br>";
+
+        echo strlen("Hello world!") . "<br>";         // panjang string
+        echo str_word_count("Hello world!") . "<br>";// jumlah kata
+        echo strpos("Hello world!", "world") . "<br>";// posisi kata
+        echo strtoupper($z) . "<br>";
+        echo strtolower($z) . "<br>";
+        echo str_replace("lilili", "lululu", $z) . "<br>";
+        echo strrev($z) . "<br>";
+        echo trim($z) . "<br>";
+
         $zz = explode(" ", $z);
-        print_r($zz);echo "<br>";
+        print_r($zz);
+        echo "<br>";
+
         $a = $z . " " . $w;
-        echo $a;echo "<br>";
+        echo $a . "<br>";
         $b = "$z $w";
-        echo $b;echo "<br>";
-        echo substr($z, 7, 12);echo "<br>";
-        echo substr($z, 7);echo "<br>";
+        echo $b . "<br>";
+        echo substr($z, 7, 6) . "<br>"; // ambil sebagian string
+        echo substr($z, 7) . "<br>";
         //memasukan karakter secara legal bisa menggunakan tanda "\"
 
         //is_float mengecek apakah float
@@ -67,19 +71,19 @@
         //intval mengembalikan nilai integer dari suatu variabel
 
         //math mengasilkan nilai phi
-        echo(pi());echo "<br>";
-        echo(min(0, 150, 30, 20, -8, -200));echo "<br>";//mencari nilai minimum
-        echo(max(0, 150, 30, 20, -8, -200));echo "<br>";//mencari nilai maksimum
-        echo(abs(-6.7));echo "<br>";//menghasilkan nilai absolut
-        echo(sqrt(64));echo "<br>";//menghasilkan nilai akar kuadrat
-        echo(round(0.60));echo "<br>";//membulatkan nilai
-        echo(rand(0, 100));echo "<br>";//menghasilkan nilai random
+        echo(pi()) . "<br>";
+        echo(min(0, 150, 30, 20, -8, -200)) . "<br>"; // minimum
+        echo(max(0, 150, 30, 20, -8, -200)) . "<br>"; // maksimum
+        echo(abs(-6.7)) . "<br>"; // absolut
+        echo(sqrt(64)) . "<br>"; // akar kuadrat
+        echo(round(0.60)) . "<br>"; // pembulatan
+        echo(rand(0, 100)) . "<br>"; // random
 
         //constanta
-        define("GREETING", "Welcome to W3Schools.com!");
-        echo GREETING;
-        const GREETING2 = "Welcome to W3Schools.com!";
-        echo GREETING2;
+        define("GREETING", "Welcome to POLBAN");
+        echo GREETING . "<br>";
+        const GREETING2 = "Welcome to POLBAN!";
+        echo GREETING2 . "<br>";
 
         //untuk operator php sama seperti operator bahasa lainnya
     ?>

@@ -9,7 +9,7 @@
                 code to be executed if condition is false;
                  }
         */
-
+        echo "if...else<br>";
         $t = date("H");
         if ($t < "10") 
         {
@@ -40,6 +40,7 @@
                 //code block
          }
         */
+        echo "<br> switch<br>";
         $favcolor = "red";
         switch ($favcolor)
          {
