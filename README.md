@@ -64,4 +64,36 @@ Mahasiswa dapat melihat daftar mata kuliah yang tersedia dan mendaftarkan diri (
 
 ## 📸 Scrennshoot Program
 
+### Halaman Login
+<img src="ss/login.png" alt="login" width="700">
 
+### Dashboard Mahasiswa
+<img src="ss/dashmhs.png" alt="Dashboard Mahasiswa" width="700">
+
+### Daftar Course Mahasiswa
+<img src="ss/daftarcoursemhs.png" alt="Daftar Course Mahasiswa" width="700"><br>
+<img src="ss/enrolldaftarcoursemhs.png" alt=" Enroll Daftar Course Mahasiswa" width="700">
+
+### My Course
+<img src="ss/mycourse.png" alt="My Course" width="700">
+
+### Dashboard Admin
+<img src="ss/dashadmin.png" alt="Dashboard Admin" width="700">
+
+### Daftar Mahasiswa admin
+<img src="ss/daftarmhsadmin.png" alt="Daftar Mahasiswa admin" width="700">
+
+### Daftar Course admin
+<img src="ss/daftarcourseadmin.png" alt="Daftar Course admin" width="700">
+
+### Add
+<img src="ss/tambah.png" alt="Add" width="700">
+
+### Edit
+<img src="ss/edit.png" alt="Edit" width="700">
+
+### Hapus
+<img src="ss/hapus.png" alt="Hapus" width="700">
+
+### Kosong
+<img src="ss/kosong.png" alt="kosong" width="700">
